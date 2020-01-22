@@ -4,9 +4,105 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marly Concha</title>
+    <title>Marly Concha | Portafolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-    Hola
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container px-2">
+            <a class="navbar-brand" href="#">Marly Concha</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"> Sobre mí<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="inicio" class="hero__section">
+        <img src="assets/img/bg-hero.png" alt="Marly-Concha-Portafolio">
+        <div class="header__text">
+            <h1>Marly Concha</h1>
+            <p>Portafolio</p>
+        </div>
+    </header>
+
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-sm-center mt-4">
+                <h1 class="recetas__relacionadas">RECETAS RELACIONADAS</h1>
+                <div class="card-deck mx-auto">
+                    <div class="card mx-4" style="width: 22rem;">
+                        <img src="assets/img/recipe-card-1.png" class="card-img-top"
+                            alt="PANQUEQUES CON MANJAR Y CREMA">
+                        <div class="card-body">
+                            <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                            <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+                                est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                    <div class="card mx-4" style="width: 22rem;">
+                        <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="TIRAMISÚ">
+                        <div class="card-body">
+                            <h5 class="card-title">TIRAMISÚ</h5>
+                            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin
+                                phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mx-4" style="width: 22rem;">
+                        <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="PLATEADA">
+                        <div class="card-body">
+                            <h5 class="card-title">PLATEADA</h5>
+                            <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
+                                laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="newsletter bg-danger">
+        <h4>SUSCRÍBETE EN NUESTRO NEWSLETTER</h4>
+        <p class="mejores">y obtén las mejores recetas que tenemos en <span class="logo__newsletter">Ricomida</span></p>
+        <button type="button" class="btn btn__newsletter btn-outline-light">
+            Empezar
+        </button>
+    </section>
+
+    <footer class="bg-dark mx-0">
+        <p class="logo__footer">Ricomida</p>
+    </footer>
+
+    <!-- js js js js -->
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script>$(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })</script>
 </body>
 </html>
