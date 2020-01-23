@@ -131,6 +131,16 @@ h1.titulo {
     font-weight: 700;
 }
 
+.btn {
+    background-color: #c73642!important; 
+    color: #ffffff!important;
+    border-radius: 0%!important;
+}
+
+.btn:hover {
+    background-color:#C85B7F!important;
+}
+
 /* CONTACTO */
 
 .contactame {
