@@ -3,6 +3,24 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+::selection {
+    background-color: #c73642;
+    color: #ffffff;
+}
+
+a {
+    color: #C85B7F;
+    font-weight: 700;
+}
+
+a:hover {
+    color:#c73642;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+               
 /* NAV */
 
 .navbar{
@@ -49,7 +67,7 @@ p.subtitulo {
 /* SOBRE MÍ */
 
 .sobremi {
-    background-color:#ec6698;
+    background-color: #C85B7F;
     padding: 50px 0px;
     text-align: center;
 }
@@ -68,21 +86,36 @@ p.subtitulo {
 
 h1 {
     font-weight: 800;
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: 800;
+    color: #ffffff;
 }
 
 /* EXPERIENCIA */
 
 .miexperiencia {
-    background-color: #ffffff;
-    color: #ec6698
-    padding: 60px 0px;
+    text-align: center;
+    padding: 30px 0px 60px 0px;
+}
+
+h1.tituloex {
+    color: #C85B7F;    
+    padding: 30px;
 }
 
 /* TRABAJOS */
 
 .mistrabajos {
-    background-color: #e6a4bf;
-    padding: 60px 0px;
+    background-color: #EECDD6;
+    padding: 30px 0px 60px 0px;
+}
+
+h1.titulo {
+    color: #c73642;
+    padding: 30px;
 }
 
 .card {
@@ -114,7 +147,7 @@ footer {
 }
 
 i {
-    color: #ffffff;
+    color: #000000;
     width: 80px;
     height: 53px;
     margin: 0px 0px 0px 5px;

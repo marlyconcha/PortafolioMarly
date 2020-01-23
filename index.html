@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="col-sm-12 col-md-4">
-                    <h2>Titulo</h2>
+                    <h2>¿Quién soy?</h2>
                     <p class="fondotexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                         ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
@@ -66,37 +66,37 @@
                 </div>
 
                 <div class="col-sm-12 col-md-4">
-                    <h2>Titulo</h2>
-                    <p class="fondotexto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <h2>Mis experiencias</h2>
+                    <p class="fondotexto">Me títule de la carrera de <span class="boldtext">Publicidad</span> el 2019. Trabajé en <span class="boldtext">NexBU</span> como <span class="boldtext">Community Manager</span> para reconocidas empresas estando a cargo de la comunicación y parte del diseño para el <span class="boldtext">Instituto Chileno Suizo</span> la inmobiliaria <span class="boldtext">Kuzacorp</span>, <span class="boldtext">Tribú</span>, <span class="boldtext">Algarina</span>, entre otras. <br>También me certifiqué en creatividad con el <a href="https://www.instagram.com/circulocreativascl/" class="text-decoration-none">Círculo de Creativas de Chile</a>.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="experiencia" class="miexperiencia">Mi experiencia
-        <i class="fab fa-adobe"></i>
-        <i class="fas fa-graduation-cap"></i>
+    <section id="experiencia" class="miexperiencia">
+        <h1 class="tituloex">Mis habilidades</h1>
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" title="Publicidad"><i class="fas fa-graduation-cap fa-5x"></i></a>
+
+        <a href="#" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom" title="Community Manager"><i class="fab fa-adobe fa-5x"></i></a>
     </section>
 
     <section id="trabajos" class="mistrabajos">
         <div class="container">
             <div class="row justify-content-sm-center mt-4">
-                <h1 class="recetas__relacionadas">Mis últimos trabajos</h1>
+                <h1 class="titulo">Mis últimos trabajos</h1>
                 <div class="card-deck mx-auto">
-                    <div class="card mx-4" style="width: 20rem;">
+                    <div id="asado" class="card mx-4" style="width: 20rem;">
                         <img src="assets/img/webmeetcoffee.png" class="card-img-top" alt="Meet&Coffe">
                         <div class="card-body">
                             <h5 class="card-title">Meet&Coffee</h5>
                             <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis
                                 est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                                
                         </div>
                     </div>
                     <div class="card mx-4" style="width: 20rem;">
                         <img src="assets/img/webiguanas.png" class="card-img-top" alt="Iguana Page">
-                        <div class="card-body">
+                        <div class="card-body" data-toggle="modal"data-target="#asado">
                             <h5 class="card-title">Iguana Page</h5>
                             <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin
                                 phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.
@@ -105,7 +105,7 @@
                     </div>
                     <div class="card mx-4" style="width: 20rem;">
                         <img src="assets/img/websuricata.png" class="card-img-top" alt="Suricata">
-                        <div class="card-body">
+                        <div class="card-body" data-toggle="modal"data-target="#asado">
                             <h5 class="card-title">Suricata</h5>
                             <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
                                 laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
@@ -160,10 +160,10 @@
                         <p class="footer-brand">Marly Concha</p>
                     </div>
                     <div class="col-6">
-                        <a href="https:facebook.com/marlyconcha>"><i class="fab fa-facebook-square fa-2x"></i></a>
-                        <a href="https:instagram.com/maruu0622>"><i class="fab fa-instagram fa-2x"></i></a>
-                        <a href="https.twitter.com/maruururu>"><i class="fab fa-twitter-square fa-2x"></i></a>
-                        <a href="https:github.com/marlyconcha>"><i class="fab fa-github-square fa-2x"></i></a>
+                        <a href="https:facebook.com/marlyconcha" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="https:instagram.com/maruu0622" data-toggle="tooltip" data-placement="bottom" title="Instagram"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https.twitter.com/maruururu" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fab fa-twitter-square fa-2x"></i></a>
+                        <a href="https:github.com/marlyconcha" data-toggle="tooltip" data-placement="bottom" title="Github"><i class="fab fa-github-square fa-2x"></i></a>
                     </div>
                 </div>
             </div>
@@ -182,9 +182,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous"></script>
-        <script>$(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            })</script>
 </body>
 
 </html>
