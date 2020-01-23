@@ -157,11 +157,19 @@ footer {
 }
 
 i {
+    color: #ffffff;
+    width: 80px;
+    height: 53px;
+    margin: 0px 0px 0px 5px;
+}
+
+i.hab {
     color: #000000;
     width: 80px;
     height: 53px;
     margin: 0px 0px 0px 5px;
 }
+
 
 p.footer-brand {
     font-family: 'Parisienne', cursive;
