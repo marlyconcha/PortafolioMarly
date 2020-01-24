@@ -82,6 +82,8 @@ p.subtitulo {
 .fondotexto {
     background-color: #ffffff;
     padding: 10px;
+    font-size: 0.90rem;
+    text-align: left;
 }
 
 h1 {
@@ -129,7 +131,15 @@ h1.titulo {
 .card-title {
     color: #c73642; 
     font-weight: 700;
+    text-align: left;
 }
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
 
 .btn {
     background-color: #c73642!important; 
@@ -151,6 +161,8 @@ h1.titulo {
 
 footer {
     background-color: #c73642;
+    background-image: url(../img/wallcherryred.png);
+    background-size: cover;
     padding: 60px 0px 30px 0px;
     text-align: center;
     color: #ffffff;
@@ -169,7 +181,6 @@ i.hab {
     height: 53px;
     margin: 0px 0px 0px 5px;
 }
-
 
 p.footer-brand {
     font-family: 'Parisienne', cursive;
