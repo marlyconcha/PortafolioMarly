@@ -73,10 +73,17 @@ p.subtitulo {
 }
 
 .sobremift {
-    height: 200px;
-    width: 200px;
+    height: 190px;
+    width: 190px;
     border-radius: 50%;
+}
 
+p.informacion {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    margin: 20px 0px;
 }
 
 .fondotexto {
@@ -106,6 +113,10 @@ h2 {
 h1.tituloex {
     color: #C85B7F;    
     padding: 30px;
+}
+
+.iconex {    
+    padding: 20px 30px;
 }
 
 /* TRABAJOS */
