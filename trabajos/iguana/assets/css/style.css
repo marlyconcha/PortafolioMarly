@@ -1,0 +1,88 @@
+body {
+    background-color: #000000;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+
+.titulo {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+h1 {
+   color: #ffffff;
+   font-weight: 500;
+   font-size: 50px;
+   text-align: center;
+   margin: 10px;
+}
+
+h1.a {
+    font-size: 40px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 25px;
+    text-align: center;
+}
+
+.iconos {
+    display: inline-block;
+    margin: 40px 50px 0px 50px;
+}
+
+.hero__section {
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    height: 727px;
+}
+
+.green {
+    padding: 50px 220px;
+    text-align: center;
+    display: inline-flex;
+    height: 237px;
+}
+
+.descripcion {
+    color: #ffffff;
+    text-align: left;
+    margin-right: 50px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.caracteristicas {
+    background-color: #1E1A13;
+    padding: 40px;
+}
+
+.imagenes {
+    display: inline-table;
+    height: 202px;
+    padding: 70px 0px;
+}
+
+.iguana {
+    width: 316px;
+    height: 202px;
+    margin: 0px 5px;
+}
+
+i {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #1E1A13;
+    padding: 10px;
+    color: #ffffff;
+}
+

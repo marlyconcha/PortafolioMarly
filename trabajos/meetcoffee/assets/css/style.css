@@ -1,0 +1,216 @@
+body {
+    background: #ffffff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+nav {
+    padding: 10px;
+    margin: 0px;
+    text-align: left;
+}
+
+.oscuro {
+    background-color: #000F08;
+    color: #ffffff;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    margin: 0px 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.1em;
+}
+
+.hero__section {
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+    text-shadow: 2px 3px 2px #707070;
+    height: 422px;
+}
+header h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: right;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+
+header p {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 400;
+    text-align: right; 
+    letter-spacing: 1px;
+}
+
+.header__text  {
+    text-align: center;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 30px 0px;
+}
+
+h2.charla {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.simposiovg {
+    font-size: 45px;
+    font-weight: 800;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 65px 250px;
+}
+
+h3.charla {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+h4.charla {
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+h5.charla {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.5rem;
+    letter-spacing: 1px;
+}
+
+p.work {
+    color: #000F08;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 0.5rem;
+    letter-spacing: 1px;
+}
+
+p.charla {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1rem;
+    letter-spacing: 2px;
+    margin-right: 200px;
+}
+
+p.samsa{
+    color: #000F08;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    width: 100%;
+}
+.wework {
+    padding: 100px 0px 30px 0px;
+    width: 419px;
+    height: 244px;
+}
+
+.simposioimg {
+    padding: 50px 0px 30px 0px;
+    width: 1085px;
+    height: 565px;
+}
+
+.simposioparrafo {
+    text-align: center;
+}
+
+.parrafo {
+    margin: 50px 250px;
+}
+
+.sweet-brown {
+    background-color: #A4452C;
+    margin: 150px 0px 100px 0px;
+}
+
+.centrado {
+    text-align: justify;
+    display: inline-flex;
+    padding: 50px;
+    margin: 0px 50px;
+    line-height: 0.5rem;
+}
+
+.fotografia {
+    width: 212px;
+    height: 194px;
+    padding: 30px;
+    margin-left: 180px;
+}
+
+.charla-texto {
+    color: #ffffff;
+    text-align: left;
+    margin-right: -40px;
+    margin-top: 15px;
+    line-height: 0.5rem;
+}
+
+.eventos {
+    display: inline-block;
+    padding: 10px;
+    margin: 20px 10px 60px 10px;
+}
+
+footer {
+    background-color: #000F08;
+    color: #ffffff;
+    padding: 70px 0px 20px 0px;
+}
+
+i {
+    color: #ffffff;
+    margin: 0px 10px;
+}
+
+.icono {
+    width: 2rem;
+    height: auto;
+}
+
+.icono svg {
+    fill: #ffffff; 
+}

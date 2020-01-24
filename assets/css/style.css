@@ -4,7 +4,7 @@ body {
 }
 
 ::selection {
-    background-color: #c73642;
+    background-color: #161614;
     color: #ffffff;
 }
 
@@ -14,7 +14,11 @@ a {
 }
 
 a:hover {
-    color:#c73642;
+    color: #161614;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .boldtext {
@@ -129,6 +133,7 @@ h1.tituloex {
 h1.titulo {
     color: #c73642;
     padding: 30px;
+    text-align: center;
 }
 
 .card {
@@ -159,7 +164,7 @@ h1.titulo {
 }
 
 .btn:hover {
-    background-color:#C85B7F!important;
+    background-color: #161614!important;
 }
 
 /* MAS TRABAJOS */
@@ -210,3 +215,13 @@ p.footer-brand {
     font-family: 'Parisienne', cursive;
     font-size: 2.5rem;
 }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+    .anchomodal {
+        width: 100vw;
+        display: inline-block;
+    }
+
+} 
