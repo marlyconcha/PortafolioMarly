@@ -52,20 +52,21 @@ html {
     color: #ffffff;
     text-align: left;
     text-shadow: 2px 3px 2px #000000;
-    padding: 320px 0px 0px 80px;
+    padding: 1.8rem 4rem 0px 4rem;
 }   
 
 p.header {
     font-family: 'Parisienne', cursive;
     font-weight: 800;
     font-size: 3rem;
+    margin: 18rem 0px 0px 0px;
 }
 
 p.subtitulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     letter-spacing: 0.7rem;
-    margin: -1.25rem 0px 0px 1.25rem;
+    margin: -0.25rem 0px 1.25rem 0px;
 }
 
 /* SOBRE MÍ */
@@ -106,6 +107,8 @@ h2 {
     font-weight: 800;
     color: #ffffff;
 }
+
+/* Foto SOBRE MI*/
 
 /* EXPERIENCIA */
 
@@ -178,6 +181,24 @@ h1.titulo {
 h1.titulot {
     color: #ffffff;    
     padding: 30px;
+}
+
+
+/* CAROUSEL */
+
+.carousel-indicators {
+    bottom: -60px;
+}
+
+.carousel-indicators .active {
+    background-color: #ffffff;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff(0,0,0,0.5)
 }
 
 /* CONTACTO */
