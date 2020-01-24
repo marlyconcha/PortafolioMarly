@@ -44,7 +44,7 @@ html {
     background-size: cover;
     background-position: center;
     height: 480px;
-    opacity: 85%;
+    opacity: 80%;
 }
 
 .header__text {
@@ -66,7 +66,7 @@ p.subtitulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     letter-spacing: 0.7rem;
-    margin: -0.25rem 0px 1.25rem 0px;
+    margin: -0.25rem 0px 1.25rem 1rem;
 }
 
 /* SOBRE MÍ */
@@ -104,11 +104,10 @@ h1 {
 }
 
 h2 {
-    font-weight: 800;
     color: #ffffff;
+    font-weight: 800;
+    letter-spacing: 0.3rem;
 }
-
-/* Foto SOBRE MI*/
 
 /* EXPERIENCIA */
 
@@ -216,6 +215,7 @@ footer {
     padding: 60px 0px 30px 0px;
     text-align: center;
     color: #ffffff;
+    opacity: 90%;
 }
 
 i {
